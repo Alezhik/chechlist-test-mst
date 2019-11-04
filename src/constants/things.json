@@ -1,0 +1,55 @@
+{
+  "things": [
+    {
+      "name": "Футболка",
+      "category": 1,
+      "countUse": 2,
+      "id": 0
+    }, {
+      "name": "Светер",
+      "category": 1,
+      "countUse": 2,
+      "id": 1
+    }, {
+      "name": "Штани",
+      "category": 1,
+      "countUse": 1,
+      "id": 2
+    }, {
+      "name": "Джинси",
+      "category": 1,
+      "countUse": 2,
+      "id": 3
+    }, {
+      "name": "Шкарпетки",
+      "category": 1,
+      "countUse": 2,
+      "id": 4
+    }, {
+      "name": "Кросівки",
+      "category": 2,
+      "countUse": 1,
+      "id": 5
+    }, {
+      "name": "Кеди",
+      "category": 1,
+      "countUse": 2,
+      "id": 6
+    }, {
+      "name": "Мешти",
+      "category": 2,
+      "countUse": 0,
+      "id": 7
+    }, {
+      "name": "Телефон",
+      "category": 6,
+      "countUse": 2,
+      "id": 8
+    }, {
+      "name": "Паспорт",
+      "category": 3,
+      "countUse": 1,
+      "id": 9
+    }
+  ]
+}

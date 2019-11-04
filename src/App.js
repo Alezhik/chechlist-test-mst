@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { observer, Provider } from 'mobx-react';
+
+import Modal from './components/message/modal';
+import Child from './components/message/modal.ui';
+import TravelList from './components/travel/travel.list';
+
+import stores from './store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider stores={stores}>
+      <TravelList />
+      <Modal>
+        <Child/>
+      </Modal>
+    </Provider>
   );
 }
 
-export default App;
+export default observer(App);
